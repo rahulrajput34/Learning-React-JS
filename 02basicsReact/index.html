@@ -1,0 +1,32 @@
+<!-- ++++++++++++++++++++++++++++++++      Lecture 3     +++++++++++++++++++++++++++++++ -->
+
+<!--We gonna learn in this lecture
+    1. Rules and regulation when we are working with react
+    2. How to create component and better practices
+    3. knowledge about react
+    4. fragments
+    5. How to import component and export
+    6. Where to give js source in html, and where not to required
+    7. Naming convention
+    8. Create React app  V/S  vite React
+    9. virtual DOM (basic)
+    10. How to target root ID from html-->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- we must inject js because we made project in vite and we dont here access of react-script in package.json-->
+    <!-- if react-script present in pachage.json then we do not need to add js in out html it automaticlally inject js in html and it inject many other things as well -->
+  </body>
+</html>
